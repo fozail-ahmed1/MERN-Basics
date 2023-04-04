@@ -1,0 +1,33 @@
+body{
+  background: #87CEFA;
+}
+.sun{
+  background-color:yellow;
+  width: 155px;
+  height: 150px;
+  border-radius: 90px;
+  margin: 100px;
+  box-shadow: 10px 10px 20px #FFD700;
+}
+img{
+  width:100px;
+  height: 75px;
+  margin-left: 800px;
+}
+.mountain1{
+  width:1000px;
+  height: 550px;
+  border-top-right-radius:200%;
+  margin: collapse;
+  background: green;
+  float: left;
+}
+.mountain2{
+  width:1000px;
+  height: 550px;
+  border-top-left-radius:200%;
+  background: green;
+  margin-left: 100%;
+  margin-top:-550px;
+  float:right;
+}

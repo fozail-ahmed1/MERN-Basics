@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>DOM manipulation</title>
+
+    <script>
+        var liElement = document.querySelectorAll('li');
+        console.log('list items', liElement);
+
+        for (var i = 0; i < liElement.length; i++) {
+            liElement[i].addEventListener('click', function() {
+                this.style.backgroundColor = 'red';
+            })
+        }
+    </script>
+</head>
+
+<body>
+    <ul>
+        <li>cat</li>
+        <li>dog</li>
+        <li>bat</li>
+    </ul>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+div{
+  width: 200px;
+  height: 150px;
+  border: 2px solid green;
+  text-align: center;
+  padding:50px 45px 30px 40px;
+  margin: 45px 25px 30px 35px;
+}
+.blue{
+  background: blue;
+  float:left;
+  box-shadow: 4px 4px 10px red;
+  border-radius: 20px;
+  transform:rotate(60deg);
+}
+.yellow{
+  float:left;
+  background: yellow;
+}
+.red{
+ float:right;
+ background: red;
+}
+.green{
+float: right;
+background: green;
+}

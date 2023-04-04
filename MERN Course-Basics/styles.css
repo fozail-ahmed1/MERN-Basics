@@ -1,0 +1,21 @@
+h3{
+  color:red;
+  font-family: "Avant Garde" ;
+}
+body{
+  background: #00f24f;
+}
+p{
+  font-family: "Futura" ;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+span{
+  font-weight: bold;
+}
+img{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
